@@ -1,17 +1,17 @@
 #include "main.h"
 /**
- * _abc - Computes the bslute valeu
+ * _abs - Computes the bslute valeu
  *@c: the number will be computed
  *Return: Abslute of valeu
  *
  */
-int _abc(int c)
+int _abs(int c)
 {
 if (c < 0)
 {
-int abc_val;
-abc_val = c * -1;
-return (abc_val);
+int abs_val;
+abs_val = c * -1;
+return (abs_val);
 }
 return (0);
 }
