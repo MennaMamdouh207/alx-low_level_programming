@@ -7,24 +7,9 @@
  */
 int _islower(int c)
 {
-if (c >= 'a' && c <= 'z')
+if (c >= 97 && c <= 122)
 {
 return (1);
-}
-else
-{
-return (0);
-}
-char c;
-printf("Enter a character: ");
-scanf("%c", &c);
-if (is_lowercase(char c))
-{
-printf("The character is lowercase\n");
-}
-else
-{
-printf("The character is not lowercase\n");
 }
 return (0);
 }
