@@ -12,7 +12,7 @@ char *y = str;
 int o;
 while (*y != '\0')
 {
-*y++;
+y++;
 longi++;
 }
 t = longi - 1;
